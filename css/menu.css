@@ -130,6 +130,7 @@ ul.sub-menu {
 	padding: 0px;
 	margin: 0px;
 	border: 1px solid #DDDDDD;
+    border-top: 0px;
 	border-radius: 0px 0px 3px 3px;
 	/* box-shadow: 2px 2px 3px #ECECEC; */
 	/* -webkit-box-shadow: 2px 2px 3px #ECECEC; */
@@ -143,7 +144,8 @@ ul.sub-menu li{
     display: block;
     height: 40px;
     position: relative;
-    border-bottom: 1px solid #DDDDDD;
+    /*border-top: 1px solid #FFF;*/
+    border-top: 1px solid #DDDDDD;
 }
 
 ul.sub-menu li:hover{
@@ -160,9 +162,9 @@ ul.sub-menu li a{
     color: #6791AD;
 }
 
-ul li:last-child {
-    border-bottom: none;
-}
+/*ul li:first-child {
+    border-top: 1px solid #FFF;
+}*/
 
 ul.sub-menu li.active {
     background: #DFEEF0;
